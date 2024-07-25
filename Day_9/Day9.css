@@ -1,0 +1,27 @@
+.title{
+    color:black;
+    text-align: center;   
+}
+.sub-title{
+    color: black;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    height: 20px;
+    font-weight: 700;
+}
+.chap2{
+    background-color: rgb(148, 118, 148);
+}
+img{
+    height : 200px;
+}
+button:hover{
+    background-color: rgb(185, 108, 108);
+    border-color: rgb(202, 11, 11);
+    border-width: 2px;
+}
+.aot:hover{
+    background-color: rgb(173, 200, 147);
+}
