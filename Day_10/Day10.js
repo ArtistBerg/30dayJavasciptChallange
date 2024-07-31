@@ -110,4 +110,8 @@ textElement.addEventListener( 'mouseout', () => {
         //appending li
         const ul = document.querySelector('.student') //selecting ul
         ul.appendChild(li)
+    //step 2: adding event listener
+    ul.addEventListener('click', () => {
+         ul.style.backgroundColor= "pink"// pink color when clicked
+    } )
 
