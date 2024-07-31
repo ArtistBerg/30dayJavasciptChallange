@@ -1,0 +1,28 @@
+.bg-black{
+    color: white;
+    background-color: black;
+}
+.activity{
+    color: rgb(121, 82, 34);
+    background-color: rgb(24, 24, 24);
+    text-align: center;
+}
+img{
+    height : 200px;
+}
+.visibility{
+    color: brown;
+}
+#demo{
+    color: rgb(111, 134, 46);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#submit{
+    background-color:lightsalmon;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    
+}
+
+
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event handling</title>
+    <link rel="stylesheet" href="Day10.css">
+</head>
+<body class="bg-black">
+    <div>
+        <div>
+            <h3 class="activity">ACTIVITY 1</h3>
+            <button onclick="myFunction()"   class="content-change">change content</button>
+            <p class="para-change">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas alias fugit dolores rem ullam molestiae.</p>
+            <hr>    
+             <div> <button ondblclick="ToggleImage()"   class="visibility">double-clilck Me</button></div>
+            <img id="img"  src="/images/aot.jpg" alt="aot or naruto">
+            
+        </div>
+        <div>
+            <h3 class="activity">ACTIVITY 2</h3>
+            <div class="text-hover">See what happens if hover over here
+            </div>
+            
+        </div>
+        <div>
+            <h3 class="activity">ACTIVITY 3</h3>
+            <!-- TASK 1 -->
+            <div class="turnRed"> Press "r" and turn this text red</div>
+            <hr> 
+            <!-- TASK 2 -->
+            Your name: <input type="text" id="name">
+            <h2 id="demo"></h2>
+        </div>
+        <div>
+            <h3 class="activity">ACTIVITY 4 <span>: form event</span></h3>
+        <!--task 1  -->
+        <form id="myForm">
+            Name : <input type="text" name = "name"><br>
+            Email : <input type="text" name = "email"><br>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+        <hr>
+        <!--task 2  -->
+            Here: <input type="text" id="myProgram">
+        </div>
+        <div class="activity5">
+        <h3 class="activity">ACTIVITY 5</h3>
+        <ul id="cities">
+            <li>Bhavnagar (blue)</li>
+            <li>Jamnagar (jambli)</li>
+            <li>Rajkot (red)</li>
+            <li>Ahmedabad (yellow)</li>
+            <li>Vadodara (vadali)</li>
+        </ul>
+        <hr>
+        <b>Dynamically adding students</b>
+        <ul class="student">
+        </ul>
+        </div>    
+    </div>
+</body>
+<script src="Day10.js"></script>
+</html>
